@@ -1,0 +1,35 @@
+{
+  "name": "layered-arch",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sequelize": "sequelize"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:miun173/layered-arch.git"
+  },
+  "author": "miun173",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miun173/layered-arch/issues"
+  },
+  "homepage": "https://github.com/miun173/layered-arch#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
